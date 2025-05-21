@@ -1,0 +1,27 @@
+version: "1.0"
+volumes:
+  postgres_alfa:
+services:
+  postgres_alfa:
+    image: postgres:17.2
+    restart: "always"
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRESQL_USER: 'postgres'
+      POSTGRESQL_PASSWORD: 'postgres'
+      POSTGRESQL_DB: 'postgres_alfa'
+    volumes:
+      - postgres_alfa:/var/lib/postgresql/data
+  appcloude:
+    image: 'storage:1.0'
+    build: .
+    ports:
+      - '8080:8080'
+    depends_on:
+      - postgres_alfa
+    environment:
+      POSTGRESQL_URL: 'postgres_alfa'
+      POSTGRESQL_PASSWORD: 'postgres'
+      POSTGRESQL_USER: 'postgres'
+      POSTGRESQL_DB: 'postgres_alfa'
