@@ -1,27 +1,27 @@
 version: "1.0"
 volumes:
-  postgres_alfa:
+  postgres_alfa2:
 services:
-  postgres_alfa:
+  postgres_alfa2:
     image: postgres:17.2
     restart: "always"
     ports:
       - "5432:5432"
     environment:
-      POSTGRESQL_USER: 'postgres'
-      POSTGRESQL_PASSWORD: 'postgres'
-      POSTGRESQL_DB: 'postgres_alfa'
+      POSTGRES_USER: '${POSTGRESQL_USER}'
+      POSTGRES_PASSWORD: '${POSTGRESQL_PASSWORD}'
+      POSTGRES_DB: '${POSTGRESQL_DB}'
     volumes:
-      - postgres_alfa:/var/lib/postgresql/data
+      - postgres_alfa2:/var/lib/postgresql/data
   appcloude:
-    image: 'storage:1.0'
+#    image: 'storage:1.0'
     build: .
     ports:
       - '8080:8080'
     depends_on:
-      - postgres_alfa
+      - postgres_alfa2
     environment:
-      POSTGRESQL_URL: 'postgres_alfa'
-      POSTGRESQL_PASSWORD: 'postgres'
-      POSTGRESQL_USER: 'postgres'
-      POSTGRESQL_DB: 'postgres_alfa'
+      POSTGRESQL_URL: 'postgres_alfa2'
+      POSTGRESQL_PASSWORD: '${POSTGRESQL_USER}'
+      POSTGRESQL_USER: '${POSTGRESQL_PASSWORD}'
+      POSTGRESQL_DB: '${POSTGRESQL_DB}'

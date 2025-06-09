@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26701970-c101-438d-af44-b1bcfe85dd58" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alfa/customer_storage/Exception/DataException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alfa/customer_storage/exception/DataException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alfa/customer_storage/Exception/RequestException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alfa/customer_storage/exception/RequestException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alfa/customer_storage/advice/ExceptionHandlerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alfa/customer_storage/advice/ExceptionHandlerAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alfa/customer_storage/service/StorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alfa/customer_storage/service/StorageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/alfa/customer_storage/CustomerStorageApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alfa/customer_storage/CustomerStorageApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,43 +48,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.CustomerStorageApplicationTests.addContactDataExceptionTest.executor": "Run",
-    "JUnit.CustomerStorageApplicationTests.addContactRequestExceptionTest.executor": "Run",
-    "JUnit.CustomerStorageApplicationTests.addContactTest.executor": "Run",
-    "JUnit.CustomerStorageApplicationTests.deleteClientDataExceptionTest.executor": "Run",
-    "JUnit.CustomerStorageApplicationTests.deleteClientRequestExceptionTest.executor": "Run",
-    "JUnit.CustomerStorageApplicationTests.deleteClientTest.executor": "Run",
-    "JUnit.CustomerStorageApplicationTests.deleteContactDataExceptionTest.executor": "Run",
-    "JUnit.CustomerStorageApplicationTests.deleteContactRequestExceptionTest.executor": "Run",
-    "JUnit.CustomerStorageApplicationTests.deleteContactTest.executor": "Run",
-    "JUnit.CustomerStorageApplicationTests.executor": "Run",
-    "JUnit.CustomerStorageApplicationTests.getAllContactTest.executor": "Run",
-    "JUnit.CustomerStorageApplicationTests.getContactDataExceptionNotClientTest.executor": "Run",
-    "JUnit.CustomerStorageApplicationTests.getContactDataExceptionTest.executor": "Run",
-    "JUnit.CustomerStorageApplicationTests.getContactRequestExceptionTest.executor": "Run",
-    "JUnit.CustomerStorageApplicationTests.getContactTest.executor": "Run",
-    "JUnit.CustomerStorageApplicationTests.patchClientDataExceptionTest.executor": "Run",
-    "JUnit.CustomerStorageApplicationTests.patchClientRequestExceptionTest.executor": "Run",
-    "JUnit.CustomerStorageApplicationTests.patchClientTest.executor": "Run",
-    "JUnit.CustomerStorageApplicationTests.patchContactDataExceptionTest.executor": "Run",
-    "JUnit.CustomerStorageApplicationTests.patchContactRequestExceptionTest.executor": "Run",
-    "JUnit.CustomerStorageApplicationTests.patchContactTest.executor": "Run",
-    "JUnit.CustomerStorageApplicationTests.putClientDataExceptionTest.executor": "Run",
-    "JUnit.CustomerStorageApplicationTests.putClientRequestExceptionTest.executor": "Run",
-    "JUnit.CustomerStorageApplicationTests.putClientTest.executor": "Run",
-    "Maven.customer-storage [clean].executor": "Run",
-    "Maven.customer-storage [package].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot Application.CustomerStorageApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Java/Netologia/TZ/customer-storage",
-    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.CustomerStorageApplicationTests.addContactDataExceptionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerStorageApplicationTests.addContactRequestExceptionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerStorageApplicationTests.addContactTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerStorageApplicationTests.deleteClientDataExceptionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerStorageApplicationTests.deleteClientRequestExceptionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerStorageApplicationTests.deleteClientTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerStorageApplicationTests.deleteContactDataExceptionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerStorageApplicationTests.deleteContactRequestExceptionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerStorageApplicationTests.deleteContactTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerStorageApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerStorageApplicationTests.getAllContactTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerStorageApplicationTests.getContactDataExceptionNotClientTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerStorageApplicationTests.getContactDataExceptionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerStorageApplicationTests.getContactRequestExceptionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerStorageApplicationTests.getContactTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerStorageApplicationTests.patchClientDataExceptionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerStorageApplicationTests.patchClientRequestExceptionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerStorageApplicationTests.patchClientTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerStorageApplicationTests.patchContactDataExceptionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerStorageApplicationTests.patchContactRequestExceptionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerStorageApplicationTests.patchContactTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerStorageApplicationTests.putClientDataExceptionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerStorageApplicationTests.putClientRequestExceptionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CustomerStorageApplicationTests.putClientTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.customer-storage [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.customer-storage [package].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot Application.CustomerStorageApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java/Netologia/TZ/customer-storage&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Java\Netologia\TZ\customer-storage\src\main\resources\db\changelog\db\changelog" />
@@ -101,6 +109,22 @@
       <option name="PACKAGE_NAME" value="com.alfa.customer_storage" />
       <option name="MAIN_CLASS_NAME" value="com.alfa.customer_storage.CustomerStorageApplicationTests" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerStorageApplicationTests.addContactRequestExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="customer-storage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alfa.customer_storage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alfa.customer_storage" />
+      <option name="MAIN_CLASS_NAME" value="com.alfa.customer_storage.CustomerStorageApplicationTests" />
+      <option name="METHOD_NAME" value="addContactRequestExceptionTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,7 +161,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerStorageApplicationTests.deleteContactTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerStorageApplicationTests.patchClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="customer-storage" />
       <extension name="coverage">
         <pattern>
@@ -147,23 +171,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.alfa.customer_storage" />
       <option name="MAIN_CLASS_NAME" value="com.alfa.customer_storage.CustomerStorageApplicationTests" />
-      <option name="METHOD_NAME" value="deleteContactTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerStorageApplicationTests.patchContactDataExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="customer-storage" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.alfa.customer_storage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.alfa.customer_storage" />
-      <option name="MAIN_CLASS_NAME" value="com.alfa.customer_storage.CustomerStorageApplicationTests" />
-      <option name="METHOD_NAME" value="patchContactDataExceptionTest" />
+      <option name="METHOD_NAME" value="patchClientTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,10 +180,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CustomerStorageApplicationTests" />
+        <item itemvalue="JUnit.CustomerStorageApplicationTests.patchClientTest" />
+        <item itemvalue="JUnit.CustomerStorageApplicationTests.addContactRequestExceptionTest" />
         <item itemvalue="JUnit.CustomerStorageApplicationTests.deleteContactDataExceptionTest" />
         <item itemvalue="JUnit.CustomerStorageApplicationTests.deleteContactRequestExceptionTest" />
-        <item itemvalue="JUnit.CustomerStorageApplicationTests.deleteContactTest" />
-        <item itemvalue="JUnit.CustomerStorageApplicationTests.patchContactDataExceptionTest" />
       </list>
     </recent_temporary>
   </component>

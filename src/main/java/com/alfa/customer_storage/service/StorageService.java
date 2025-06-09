@@ -1,7 +1,7 @@
 package com.alfa.customer_storage.service;
 
-import com.alfa.customer_storage.Exception.DataException;
-import com.alfa.customer_storage.Exception.RequestException;
+import com.alfa.customer_storage.exception.DataException;
+import com.alfa.customer_storage.exception.RequestException;
 import com.alfa.customer_storage.dto.ClientDto;
 import com.alfa.customer_storage.dto.ContactDto;
 import com.alfa.customer_storage.entity.Client;

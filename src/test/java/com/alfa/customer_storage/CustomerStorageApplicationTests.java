@@ -1,7 +1,7 @@
 package com.alfa.customer_storage;
 
-import com.alfa.customer_storage.Exception.DataException;
-import com.alfa.customer_storage.Exception.RequestException;
+import com.alfa.customer_storage.exception.DataException;
+import com.alfa.customer_storage.exception.RequestException;
 import com.alfa.customer_storage.controller.StorageController;
 import com.alfa.customer_storage.dto.ClientDto;
 import com.alfa.customer_storage.dto.ContactDto;
@@ -25,7 +25,7 @@ import java.util.Optional;
 @SpringBootTest
 class CustomerStorageApplicationTests {
 
-	ContactRepository contactRepository = Mockito.spy(ContactRepository.class);
+	ContactRepository contactRepository = Mockito.mock(ContactRepository.class);
 	ClientRepository clientRepository = Mockito.mock(ClientRepository.class);
 	StorageService storageService = new StorageService(clientRepository, contactRepository);
 	StorageController storageController = new StorageController(storageService);

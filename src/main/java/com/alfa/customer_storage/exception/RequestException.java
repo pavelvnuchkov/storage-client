@@ -1,4 +1,4 @@
-package com.alfa.customer_storage.Exception;
+package com.alfa.customer_storage.exception;
 
 public class RequestException extends RuntimeException {
 
