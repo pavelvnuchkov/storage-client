@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26701970-c101-438d-af44-b1bcfe85dd58" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alfa/customer_storage/Exception/DataException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alfa/customer_storage/exception/DataException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alfa/customer_storage/Exception/RequestException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alfa/customer_storage/exception/RequestException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alfa/customer_storage/advice/ExceptionHandlerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alfa/customer_storage/advice/ExceptionHandlerAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alfa/customer_storage/service/StorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alfa/customer_storage/service/StorageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/alfa/customer_storage/CustomerStorageApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alfa/customer_storage/CustomerStorageApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
